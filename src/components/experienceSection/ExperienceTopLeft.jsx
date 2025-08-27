@@ -7,12 +7,12 @@ const ExperienceTopLeft = () => {
         Since 2023
       </p>
       <div className="flex justify-center items-center gap-4">
-        <ExperienceInfo number="2" text="Years" />
+        <ExperienceInfo number="1" text="Years" />
         <p className="font-bold text-6xl text-lightBrown">-</p>
-        <ExperienceInfo number="60" text="Websites" />
+        <ExperienceInfo number="60+" text="Websites" />
       </div>
       <p className="text-center">
-        With 2 years of experience developing dynamic web applications, AI/ML
+        With 1 years of experience developing dynamic web applications, AI/ML
         models, and computer vision projects.
       </p>
     </div>
