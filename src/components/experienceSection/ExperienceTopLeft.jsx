@@ -12,7 +12,7 @@ const ExperienceTopLeft = () => {
         <ExperienceInfo number="60+" text="Websites" />
       </div>
       <p className="text-center">
-        With 1 years of experience developing dynamic web applications, AI/ML
+        With 1+ years of experience developing dynamic web applications, AI/ML
         models, and computer vision projects.
       </p>
     </div>
