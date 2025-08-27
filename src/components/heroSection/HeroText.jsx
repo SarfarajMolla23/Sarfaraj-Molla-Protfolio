@@ -11,7 +11,8 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
       >
-        Full-Stack Developer | MERN Stack Expert | AI & Computer Vision Enthusiast
+        Full-Stack Developer | MERN Stack Expert | AI & Computer Vision
+        Enthusiast
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -30,7 +31,9 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        Full-Stack Web Developer & AI Enthusiast <br /> with 1+ years of experience building  <br/> scalable MERN stack applications <br /> and AI-powered solutions.
+        Full-Stack Web Developer & AI Enthusiast <br /> with 1+ years of
+        experience building <br /> scalable MERN stack applications <br /> and
+        AI-powered solutions.
       </motion.p>
       <motion.a
         href="/images/Sarfaraj_Molla_CV.pdf"
@@ -39,7 +42,16 @@ const HeroText = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="inline-block w-fit px-6 py-3 mt-6 rounded-2xl bg-orange text-white  font-semibold hover:bg-orange/90 transition"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="inline-block w-fit 
+            px-5 py-2 sm:px-6 sm:py-3 md:px-8 md:py-3 
+            mt-4 sm:mt-6 
+            text-sm sm:text-base md:text-lg 
+            rounded-2xl bg-orange text-white font-semibold 
+            shadow-md hover:shadow-lg hover:shadow-orange/30 
+            hover:bg-orange/90 
+            transition-all duration-300 ease-in-out"
       >
         Download Resume
       </motion.a>
