@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        Full-Stack Web Developer & AI Enthusiast <br /> with 2+ years of experience building  <br/> scalable MERN stack applications <br /> and AI-powered solutions.
+        Full-Stack Web Developer & AI Enthusiast <br /> with 1+ years of experience building  <br/> scalable MERN stack applications <br /> and AI-powered solutions.
       </motion.p>
       <motion.a
         href="/images/Sarfaraj_Molla_CV.pdf"
