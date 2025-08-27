@@ -33,7 +33,7 @@ const HeroText = () => {
         Full-Stack Web Developer & AI Enthusiast <br /> with 2+ years of experience building  <br/> scalable MERN stack applications <br /> and AI-powered solutions.
       </motion.p>
       <motion.a
-        href="../../public/images/Sarfaraj_Molla_CV.pdf"
+        href="/images/Sarfaraj_Molla_CV.pdf"
         download
         variants={fadeIn("up", 0.8)}
         initial="hidden"
