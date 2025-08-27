@@ -41,17 +41,23 @@ const HeroText = () => {
         variants={fadeIn("up", 0.8)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
+        viewport={{ once: true, amount: 0.2 }}
+        whileHover={{
+          scale: 1.05,
+          transition: { duration: 0.6, ease: "easeInOut" },
+        }}
+        whileTap={{
+          scale: 0.95,
+          transition: { duration: 0.2 },
+        }}
         className="inline-block w-fit 
-            px-5 py-2 sm:px-6 sm:py-3 md:px-8 md:py-3 
-            mt-4 sm:mt-6 
-            text-sm sm:text-base md:text-lg 
-            rounded-2xl bg-orange text-white font-semibold 
-            shadow-md hover:shadow-lg hover:shadow-orange/30 
-            hover:bg-orange/90 
-            transition-all duration-300 ease-in-out"
+      px-5 py-2 sm:px-6 sm:py-3 md:px-8 md:py-3 
+      mt-4 sm:mt-6 
+      text-sm sm:text-base md:text-lg 
+      rounded-2xl bg-orange text-white font-semibold 
+      shadow-md hover:shadow-lg hover:shadow-orange/30 
+      hover:bg-orange/90 
+      transition-colors duration-500 ease-in-out"
       >
         Download Resume
       </motion.a>
